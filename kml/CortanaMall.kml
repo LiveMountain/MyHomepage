@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CortanaMall.kml</name>
+	<Style id="sh_poi">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_poi">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_poi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_poi</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_poi</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Cortana Mall</name>
+		<LookAt>
+			<longitude>-91.09311167870777</longitude>
+			<latitude>30.45755396656839</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002162822871380056</heading>
+			<tilt>20.83556650263929</tilt>
+			<range>273.2842217402731</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_poi</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-91.09278096665275,30.45789055510982,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

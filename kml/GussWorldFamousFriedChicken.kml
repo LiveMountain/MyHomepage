@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>GussWorldFamousFriedChicken.kml</name>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Gus&apos;s World Famous Fried Chicken</name>
+		<LookAt>
+			<longitude>-90.05844701282666</longitude>
+			<latitude>35.13852562999934</latitude>
+			<altitude>0</altitude>
+			<heading>-0.1152535470696717</heading>
+			<tilt>26.36821359439174</tilt>
+			<range>771.2805887518008</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_dining</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-90.05785416152877,35.13820369904532,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Graceland.kml</name>
+	<StyleMap id="msn_poi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_poi</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_poi</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_poi">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_poi">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/poi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>Graceland</name>
+		<LookAt>
+			<longitude>-90.02604930001726</longitude>
+			<latitude>35.04769119999816</latitude>
+			<altitude>0</altitude>
+			<heading>-9.952579906395996e-012</heading>
+			<tilt>0</tilt>
+			<range>1000.000014680671</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_poi</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-90.02604930001726,35.04769119999816,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

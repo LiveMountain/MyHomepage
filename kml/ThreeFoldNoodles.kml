@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ThreeFoldNoodles.kml</name>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Three Fold Noodles</name>
+		<LookAt>
+			<longitude>-92.27264788532997</longitude>
+			<latitude>34.74707338723849</latitude>
+			<altitude>0</altitude>
+			<heading>1.349772940371018</heading>
+			<tilt>30.70851064733677</tilt>
+			<range>191.0249938397902</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_dining</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-92.27264560455367,34.74707746736104,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

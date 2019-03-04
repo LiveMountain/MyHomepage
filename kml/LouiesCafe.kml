@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LouiesCafe.kml</name>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Louies Cafe</name>
+		<LookAt>
+			<longitude>-91.17921456053449</longitude>
+			<latitude>30.41799607774726</latitude>
+			<altitude>0</altitude>
+			<heading>-4.989871339533225e-006</heading>
+			<tilt>0</tilt>
+			<range>1019.777188235741</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_dining</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-91.17921456053449,30.41799607774726,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
